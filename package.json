@@ -1,0 +1,35 @@
+{
+  "name": "pixel-os",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.6",
+    "rollup": "^4.57.1",
+    "typescript": "~5.9.3",
+    "vite": "npm:rolldown-vite@7.2.5"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.2.5"
+  },
+  "dependencies": {
+    "@imgly/background-removal": "^1.7.0",
+    "@tensorflow/tfjs": "^4.11.0",
+    "@vladmandic/face-api": "^1.7.15",
+    "browser-image-compression": "^2.0.2",
+    "cropperjs": "^2.1.0",
+    "file-saver": "^2.0.5",
+    "heic2any": "^0.0.4",
+    "html-to-image": "^1.11.13",
+    "jszip": "^3.10.1",
+    "qrcode": "^1.5.4",
+    "upscaler": "^1.0.0-beta.19",
+    "vite-plugin-top-level-await": "^1.6.0",
+    "vite-plugin-wasm": "^3.5.0"
+  }
+}
