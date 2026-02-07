@@ -477,8 +477,11 @@ html {
 
   .main-content {
     margin-left: 280px;
-    padding: calc(60px + var(--spacing-xl)) var(--spacing-xl) var(--spacing-xl);
+    padding: calc(60px + var(--spacing-xl)) var(--spacing-lg) var(--spacing-xl);
+    width: calc(100vw - 280px);
     max-width: calc(100vw - 280px);
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   .tool-grid {
@@ -487,23 +490,31 @@ html {
 
   .tool-workspace {
     flex-direction: row;
+    gap: var(--spacing-lg);
+    width: 100%;
+    max-width: 100%;
   }
 
   .tool-preview {
-    flex: 2;
-    min-height: 500px;
+    flex: 1 1 60%;
+    min-width: 0;
+    min-height: 400px;
     max-height: none;
   }
 
   .tool-controls {
-    flex: 1;
-    min-width: 300px;
-    max-width: 400px;
+    flex: 0 0 280px;
+    width: 280px;
+    max-width: 280px;
+    min-width: 0;
     background: var(--glass-bg);
     border: var(--glass-border);
     border-radius: var(--radius-lg);
+    overflow-y: auto;
+    max-height: calc(100vh - 140px);
   }
 }
+
 
 @media (min-width: 1280px) {
   .tool-grid {

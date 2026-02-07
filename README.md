@@ -1,189 +1,279 @@
-# 🎨 Pixel OS
+<p align="center">
+  <img src="https://img.shields.io/badge/Pixel_OS-35%2B_Tools-8B5CF6?style=for-the-badge&logo=image&logoColor=white" alt="Pixel OS"/>
+  <img src="https://img.shields.io/badge/100%25-Privacy_First-4ADE80?style=for-the-badge&logo=shield&logoColor=white" alt="Privacy First"/>
+  <img src="https://img.shields.io/badge/Zero-Server_Required-38BDF8?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Zero Server"/>
+</p>
 
-**Privacy-First Browser-Based Image Manipulation Suite**
+<h1 align="center">
+  🖼️ Pixel OS
+</h1>
 
-![Status](https://img.shields.io/badge/status-in%20development-yellow)
-![License](https://img.shields.io/badge/license-MIT-blue)
-![TypeScript](https://img.shields.io/badge/typescript-5.9.3-blue)
-![Vite](https://img.shields.io/badge/vite-7.2.5-646CFF)
+<p align="center">
+  <strong>Privacy-First Browser Image Manipulation Suite</strong>
+  <br />
+  <em>35+ Professional Image Tools • Zero Uploads • 100% Client-Side</em>
+</p>
 
-> 35+ powerful image tools that run entirely in your browser. Your images never leave your device.
+<p align="center">
+  <a href="https://img.oriz.in"><img src="https://img.shields.io/badge/🚀_Live_Demo-img.oriz.in-8B5CF6?style=flat-square" alt="Live Demo"/></a>
+  <img src="https://img.shields.io/github/stars/chirag127/pixel-os?style=flat-square&color=yellow" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/chirag127/pixel-os?style=flat-square" alt="Forks"/>
+  <img src="https://img.shields.io/github/license/chirag127/pixel-os?style=flat-square" alt="License"/>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs Welcome"/>
+</p>
 
-## 🚀 Live Demo
+<p align="center">
+  <a href="#-features">Features</a> •
+  <a href="#-live-deployments">Live Demo</a> •
+  <a href="#-quick-start">Quick Start</a> •
+  <a href="#-tools">Tools</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-deployment">Deploy</a>
+</p>
 
-🌐 **Production:** [img.oriz.in](https://img.oriz.in) *(coming soon)*
+---
 
-## ✨ Features
+## 🌟 Why Pixel OS?
 
-- **🔒 100% Private** - All processing happens client-side using WebAssembly
-- **⚡ Lightning Fast** - No upload/download delays, WASM-powered performance
-- **🎨 Beautiful UI** - Glassmorphism design with "Liquid Retina" aesthetics
-- **📱 Mobile-First** - Responsive design works on all devices
-- **🤖 AI-Powered** - Background removal, upscaling, and more
-- **💯 Completely Free** - No watermarks, signups, or limits
+| ✅ Feature | ❌ Traditional Tools |
+|-----------|---------------------|
+| **100% Client-Side** - Files never leave your device | Upload to remote servers |
+| **WASM AI** - Background removal runs locally | Requires API calls |
+| **Zero Installation** - Works in any browser | Requires software download |
+| **Privacy First** - No tracking of your images | Images stored on servers |
+| **Free Forever** - No subscriptions | Freemium with limits |
 
-## 🛠️ Tools (6/35 Complete)
+---
 
-### 📦 Drive A: Optimize ✅
-- [x] **Compress JPEG** - Lossy compression with quality control
-- [x] **Compress PNG** - Lossless PNG optimization
-- [x] **Compress WebP** - Modern format compression
-- [x] **AI Upscale** - 2x/4x image enhancement
-- [x] **Remove Background** ⭐ - AI-powered WASM background removal
-- [x] **Vectorize** - Raster to SVG conversion
+## 🚀 Live Deployments
 
-### ✂️ Drive B: Modify (Coming Soon)
-- [ ] Resize, Crop, Rotate, Flip, Circle Crop, Skew
+| Platform | URL | Status |
+|----------|-----|--------|
+| 🌐 **Cloudflare Pages** (Primary) | [img.oriz.in](https://img.oriz.in) | [![Cloudflare](https://img.shields.io/badge/CF-Live-F38020?style=flat-square)](https://img.oriz.in) |
+| ▲ **Vercel** | [pixel-os.vercel.app](https://pixel-os.vercel.app) | [![Vercel](https://img.shields.io/badge/Vercel-Live-000?style=flat-square)](https://pixel-os.vercel.app) |
+| 🔷 **Netlify** | [pixel-os.netlify.app](https://pixel-os.netlify.app) | [![Netlify](https://img.shields.io/badge/Netlify-Live-00C7B7?style=flat-square)](https://pixel-os.netlify.app) |
+| ⚡ **Surge** | [pixel-os.surge.sh](https://pixel-os.surge.sh) | [![Surge](https://img.shields.io/badge/Surge-Live-333?style=flat-square)](https://pixel-os.surge.sh) |
+| 🏠 **Neocities** | [chirag127.neocities.org](https://chirag127.neocities.org) | [![Neocities](https://img.shields.io/badge/Neocities-Live-E03C31?style=flat-square)](https://chirag127.neocities.org) |
+| 🐙 **GitHub Pages** | [chirag127.github.io/pixel-os](https://chirag127.github.io/pixel-os) | [![GitHub](https://img.shields.io/badge/GitHub-Live-181717?style=flat-square)](https://chirag127.github.io/pixel-os) |
 
-### 🔄 Drive C: Convert (Coming Soon)
-- [ ] JPG↔PNG, WebP, HEIC, SVG, HTML-to-Image, Base64
+---
 
-### 🎨 Drive D: Create (Coming Soon)
-- [ ] Meme Maker, Collage, Markup, Quote, Gradient, Social Card, QR Art
+## 🛠️ Tools (35+)
 
-### 🔒 Drive E: Security (Coming Soon)
-- [ ] Watermark, Blur Face, Blur Area, EXIF tools, Pixelate
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 🤖 Drive F: AI Tools (Coming Soon)
-- [ ] AI Caption, Tags, Vision (powered by Puter.js)
+### ⚡ Optimize
+| Tool | Description |
+|------|-------------|
+| 🗜️ Compress JPG | Reduce JPEG file size |
+| 📦 Compress PNG | Lossless PNG compression |
+| 🌐 Compress WebP | Modern WebP compression |
+| 🔍 AI Upscale | 2x resolution enhancement |
+| ✂️ Remove BG | AI-powered background removal |
+| 🎨 Vectorize | Convert to SVG |
 
-## 🏗️ Tech Stack
+### 🔄 Modify
+| Tool | Description |
+|------|-------------|
+| 📐 Resize | Custom dimensions |
+| ✂️ Crop | Aspect ratio presets |
+| 🔁 Rotate | Angle adjustment |
+| ↔️ Flip | Horizontal/Vertical |
+| ⭕ Circle Crop | Round images |
+| 🔶 Skew | Perspective transform |
 
-- **Frontend:** Vite + TypeScript
-- **Styling:** CSS (Glassmorphism Design System)
-- **Image Processing:**
-  - `@imgly/background-removal` - WASM AI background removal
-  - `browser-image-compression` - Client-side compression
-  - `@vladmandic/face-api` - Face detection
-  - `cropperjs`, `html-to-image`, `heic2any`, `upscaler`
+### 🔒 Security
+| Tool | Description |
+|------|-------------|
+| 💧 Watermark | Text overlay protection |
+| 😶 Blur Face | Auto face detection |
+| 🔳 Blur Area | Manual region blur |
+| 🗑️ EXIF Remove | Strip metadata |
+| 📋 EXIF View | View metadata |
+| 🎨 Pixelate | Censor regions |
 
-## 🚀 Quick Start
+</td>
+<td width="50%" valign="top">
+
+### 🔀 Convert
+| Tool | Description |
+|------|-------------|
+| 📸 JPG → PNG | Format conversion |
+| 🖼️ PNG → JPG | With compression |
+| 🌐 WebP → JPG | Legacy support |
+| 📱 HEIC → JPG | iPhone photos |
+| 🎯 SVG → PNG | Rasterize vectors |
+| 🌍 HTML → Image | Screenshot capture |
+| 📝 Image → Base64 | Data URI |
+| 📊 JSON → Image | Chart export |
+
+### 🎨 Create
+| Tool | Description |
+|------|-------------|
+| 😂 Meme Maker | Top/bottom text |
+| 🖼️ Collage | Grid layouts |
+| ✏️ Markup | Arrows & shapes |
+| 💬 Quote | Social quotes |
+| 🌈 Gradient | CSS wallpapers |
+| 📱 Social Card | OG images |
+| 📲 QR Art | Stylish QR codes |
+
+### 🤖 AI-Powered
+| Tool | Description |
+|------|-------------|
+| 📝 Caption | AI descriptions |
+| 🏷️ Tags | Auto-tagging |
+| 👁️ Vision | Image analysis |
+
+</td>
+</tr>
+</table>
+
+---
+
+## ⚡ Quick Start
 
 ```bash
+# Clone the repository
+git clone https://github.com/chirag127/pixel-os.git
+cd pixel-os
+
 # Install dependencies
 npm install
 
-# Start dev server
+# Start development server
 npm run dev
 
 # Build for production
 npm run build
-
-# Preview production build
-npm run preview
 ```
-
-## 📁 Project Structure
-
-```
-pixel-os/
-├── src/
-│   ├── apps/           # 35+ tool implementations
-│   │   ├── optimize/   # ✅ 6 tools complete
-│   │   ├── modify/     # 📝 Coming soon
-│   │   ├── convert/    # 📝 Coming soon
-│   │   ├── create/     # 📝 Coming soon
-│   │   ├── security/   # 📝 Coming soon
-│   │   └── ai/         # 📝 Coming soon
-│   ├── components/     # Reusable UI components
-│   ├── styles/         # Design system CSS
-│   ├── router.ts       # SPA routing
-│   └── shell.ts        # App chrome
-├── public/
-│   └── models/         # AI model files
-└── vite.config.ts      # Build configuration
-```
-
-## 🎯 Development Progress
-
-- [x] Project setup & dependencies
-- [x] Core architecture (router, shell)
-- [x] Design system (glassmorphism)
-- [x] Reusable components (DropZone, ToolLayout)
-- [x] Drive A: Optimize (6 tools)
-- [ ] Drive B: Modify (6 tools)
-- [ ] Drive C: Convert (8 tools)
-- [ ] Drive D: Create (7 tools)
-- [ ] Drive E: Security (6 tools)
-- [ ] Drive F: AI Tools (3 tools)
-- [ ] SEO content for all pages
-- [ ] PWA manifest & service worker
-
-**Progress:** 17% (6/35 tools)
-
-## 🔧 Key Features
-
-### Privacy-First Processing
-
-All image manipulation happens in your browser using WebAssembly. Your photos never touch our servers.
-
-```typescript
-// Example: Background removal runs 100% client-side
-import { removeBackground } from '@imgly/background-removal';
-
-const blob = await removeBackground(image, {
-  progress: (progress) => console.log(progress)
-});
-```
-
-### Responsive Design
-
-Mobile-first design with glassmorphism aesthetics:
-- **Mobile:** Bottom sheet navigation
-- **Desktop:** Sidebar with drive categories
-- **Tablet:** Adaptive bento grid
-
-### Component Architecture
-
-Reusable components for consistent UX:
-
-```typescript
-// DropZone - Drag & drop with instant preview
-const dropZone = createDropZone(container, {
-  accept: ['image/*'],
-  onFiles: (files) => handleFiles(files)
-});
-
-// ToolLayout - Base layout for all tools
-const tool = createToolLayout(container, {
-  title: 'Compress JPEG',
-  onFileSelect: processFile
-});
-```
-
-## 📝 Environment Variables
-
-No environment variables required for core functionality!
-
-AI tools (Drive F) will require:
-```bash
-VITE_PUTER_API_KEY=your_puter_key_here  # For AI caption/tags/vision
-```
-
-## 🤝 Contributing
-
-Contributions welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📜 License
-
-MIT License - feel free to use this project for your own purposes.
-
-## 🙏 Acknowledgments
-
-- [imgly/background-removal](https://github.com/imgly/background-removal-js) - Amazing WASM BG removal
-- [browser-image-compression](https://github.com/Donaldcwl/browser-image-compression) - Client-side compression
-- [vladmandic/face-api](https://github.com/vladmandic/face-api) - Face detection
-
-## 📞 Contact
-
-Built with ❤️ by [Chirag](https://github.com/chirag127)
 
 ---
 
-**⚠️ Status:** Currently in active development. Drive A (Optimize) is complete and functional. Remaining drives coming soon!
+## 🏗️ Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white" alt="WASM"/>
+  <img src="https://img.shields.io/badge/Canvas_API-FF6F00?style=for-the-badge&logo=html5&logoColor=white" alt="Canvas"/>
+</p>
+
+| Category | Technologies |
+|----------|-------------|
+| **Framework** | Vite 5 + TypeScript |
+| **UI Design** | Liquid Retina Glassmorphism |
+| **Image Processing** | Canvas API, WASM |
+| **AI/ML** | TensorFlow.js, Face-API.js |
+| **Background Removal** | @imgly/background-removal |
+| **Analytics** | GA4, Mixpanel, Amplitude, Heap, Clarity, Yandex |
+
+---
+
+## 📦 Deployment
+
+### One-Command Deploy to All Platforms
+
+```bash
+# Install Python dependencies
+pip install -r ops/requirements.txt
+
+# Deploy to all platforms
+python ops/deploy_all.py
+
+# Or deploy individually:
+python ops/deploy_cloudflare.py
+python ops/deploy_netlify.py
+python ops/deploy_vercel.py
+python ops/deploy_surge.py
+python ops/deploy_neocities.py
+python ops/deploy_github_pages.py
+```
+
+### Required Environment Variables
+
+```env
+# Cloudflare
+CLOUDFLARE_ACCOUNT_ID=your_account_id
+CLOUDFLARE_GLOBAL_API_KEY=your_api_key
+CLOUDFLARE_EMAIL=your_email
+
+# Netlify
+NETLIFY_AUTH_TOKEN=your_token
+NETLIFY_SITE_ID=your_site_id
+
+# Vercel
+VERCEL_TOKEN=your_token
+VERCEL_ORG_ID=your_org_id
+VERCEL_PROJECT_ID=your_project_id
+
+# Surge
+SURGE_TOKEN=your_token
+SURGE_DOMAIN=pixel-os.surge.sh
+
+# Neocities
+NEOCITIES_API_KEY=your_api_key
+NEOCITIES_SITENAME=your_sitename
+
+# GitHub
+GH_USERNAME=your_username
+GH_TOKEN=your_token
+```
+
+---
+
+## 📊 Analytics & Monitoring
+
+This project includes enterprise-grade analytics and monitoring:
+
+| Service | Purpose |
+|---------|---------|
+| Google Analytics 4 | Traffic & Conversions |
+| Microsoft Clarity | Heatmaps & Recordings |
+| Yandex Metrica | Webvisor Recordings |
+| Mixpanel | Product Analytics |
+| Amplitude | User Journeys |
+| Heap | Auto-capture Events |
+| Cloudflare Analytics | AdBlock-immune metrics |
+| GoatCounter | Privacy-focused stats |
+| Sentry | Error Tracking |
+| Honeybadger | Exception Monitoring |
+| Rollbar | Real-time Errors |
+| Bugsnag | Stability Metrics |
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. ⭐ **Star this repo** to show support
+2. 🐛 **Report bugs** via GitHub Issues
+3. 💡 **Suggest features** in Discussions
+4. 🔧 **Submit PRs** for improvements
+
+---
+
+## 💖 Support
+
+<p align="center">
+  <a href="https://ko-fi.com/chirag127">
+    <img src="https://img.shields.io/badge/Ko--fi-Support_Me-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-Fi"/>
+  </a>
+</p>
+
+---
+
+## 📄 License
+
+MIT © [Chirag Singhal](https://github.com/chirag127)
+
+---
+
+<p align="center">
+  <strong>Made with ❤️ for the open-source community</strong>
+  <br />
+  <sub>If you find this useful, please ⭐ star this repository!</sub>
+</p>

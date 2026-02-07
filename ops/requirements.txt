@@ -1,0 +1,12 @@
+# Pixel OS Deployment Scripts Requirements
+# =========================================
+
+# Core
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Cloudflare
+cloudflare>=2.0.0
+
+# Optional: Rich terminal output
+rich>=13.0.0
